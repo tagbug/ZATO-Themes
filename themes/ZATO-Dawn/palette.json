@@ -1,0 +1,33 @@
+{
+  "name": "ZATO Dawn",
+  "id": "ZATO-Dawn",
+  "version": "1.0",
+  "shell": "50",
+  "appearance": "dark",
+  "colors": {
+    "surface": "#2c2928",
+    "view": "#242222",
+    "header": "#332e2a",
+    "text": "#e9dfd0",
+    "muted": "#b5a89a",
+    "accentFg": "#2c231e",
+    "accent": "#d7a77b"
+  },
+  "shellMap": {
+    "#ffffff": "#e9dfd0",
+    "#fafafb": "#e9dfd0",
+    "#36363a": "#3d3631",
+    "#2e2e33": "#2c2928",
+    "#222226": "#242222",
+    "#38383b": "#2c2928",
+    "#47474c": "#494039",
+    "#4a4a4f": "#4e433b",
+    "#424247": "#443a33",
+    "#56565c": "#5e5045",
+    "#b2b2b4": "#b5a89a",
+    "#9b9b9d": "#a6998c",
+    "#333333": "#332e2a",
+    "#000000": "#191717"
+  },
+  "warmOverlay": true
+}

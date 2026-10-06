@@ -1,0 +1,25 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+@define-color theme_bg_color #282c34;
+@define-color theme_fg_color #e5dfd3;
+@define-color theme_base_color #21252b;
+@define-color theme_text_color #e5dfd3;
+@define-color theme_selected_bg_color #e5dfd3;
+@define-color theme_selected_fg_color #21252b;
+@define-color insensitive_bg_color #282c34;
+@define-color insensitive_fg_color #7f8796;
+@define-color theme_unfocused_bg_color #282c34;
+@define-color theme_unfocused_fg_color #abb2bf;
+@define-color theme_unfocused_base_color #21252b;
+@define-color theme_unfocused_text_color #abb2bf;
+@define-color borders #3b424e;
+@define-color unfocused_borders #343b46;
+window, dialog { background-color: @theme_bg_color; color: @theme_fg_color; }
+headerbar { background-image: none; background-color: #2c313a; color: @theme_fg_color; }
+.view, textview text, entry { background-color: @theme_base_color; color: @theme_text_color; }
+button.suggested-action { background-image: none; background-color: @theme_selected_bg_color; color: @theme_selected_fg_color; }
+selection { background-color: @theme_selected_bg_color; color: @theme_selected_fg_color; }
+
+/* Optional title and button fonts; application body fonts are unchanged. */
+headerbar .title { font-family: "KingHwaOldSong-GB", "Noto Serif CJK SC"; }
+button label { font-family: "BoYa-Courier-Mix", "Noto Sans CJK SC"; }

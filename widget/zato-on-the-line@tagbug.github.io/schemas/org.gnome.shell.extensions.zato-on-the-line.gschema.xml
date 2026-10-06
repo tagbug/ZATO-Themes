@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+ <schema id="org.gnome.shell.extensions.zato-on-the-line" path="/org/gnome/shell/extensions/zato-on-the-line/">
+  <key name="x-position" type="d"><range min="0" max="1"/><default>0.04</default><summary>Horizontal position in remaining desktop space</summary></key>
+  <key name="y-position" type="d"><range min="0" max="1"/><default>0.12</default><summary>Vertical position in remaining desktop space</summary></key>
+  <key name="scale" type="d"><range min="0.55" max="1.8"/><default>1.0</default><summary>Widget scale</summary></key>
+  <key name="opacity" type="d"><range min="0.2" max="1"/><default>1.0</default><summary>Widget opacity</summary></key>
+  <key name="monitor" type="i"><range min="-1" max="15"/><default>-1</default><summary>Monitor index; -1 follows primary monitor</summary></key>
+  <key name="show-seconds" type="b"><default>false</default><summary>Show seconds</summary></key>
+  <key name="veil" type="b"><default>true</default><summary>Subtle ink veil for readability on bright wallpaper</summary></key>
+ </schema>
+</schemalist>

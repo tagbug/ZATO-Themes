@@ -1,0 +1,27 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+stage {
+  color: #e5dfd3;
+  font-family: "BoYa-Courier-Mix", sans-serif;
+}
+#panel { background-color: rgba(30,34,41,0.96); }
+#panel .clock-display { font-feature-settings: "tnum"; }
+.popup-menu-content, .candidate-popup-content, .quick-settings {
+  background-color: #282c34;
+}
+.quick-toggle { color: #e5dfd3; }
+.quick-toggle:checked { color: #21252b; }
+.calendar .calendar-month-header .calendar-month-label,
+.world-clocks-header, .weather-header, .message .message-title {
+  font-family: "KingHwaOldSong-GB", serif;
+}
+#dash .dash-background, #dashtodockContainer .dash-background {
+  background-color: rgba(40,44,52,0.96);
+}
+.search-entry { background-color: #282c34; color: #e5dfd3; }
+.notification-banner { background-color: #282c34; }
+.slider {
+  -slider-background-color: #454c59;
+  -slider-active-background-color: #dfaa98;
+}
+
+.quick-toggle:checked { background-image: url("assets/paper-grain.svg"); background-size: cover; }

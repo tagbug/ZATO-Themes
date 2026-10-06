@@ -1,0 +1,33 @@
+{
+  "name": "ZATO Night",
+  "id": "ZATO-Night",
+  "version": "1.0",
+  "shell": "50",
+  "appearance": "dark",
+  "colors": {
+    "surface": "#282c34",
+    "view": "#21252b",
+    "header": "#2c313a",
+    "text": "#e5dfd3",
+    "muted": "#abb2bf",
+    "accent": "#e5dfd3",
+    "accentFg": "#21252b"
+  },
+  "shellMap": {
+    "#ffffff": "#e5dfd3",
+    "#fafafb": "#e5dfd3",
+    "#36363a": "#353b45",
+    "#2e2e33": "#282c34",
+    "#222226": "#21252b",
+    "#38383b": "#282c34",
+    "#47474c": "#3d4450",
+    "#4a4a4f": "#414856",
+    "#424247": "#383f4b",
+    "#56565c": "#4b5361",
+    "#b2b2b4": "#abb2bf",
+    "#9b9b9d": "#9aa2b1",
+    "#333333": "#2c313a",
+    "#000000": "#171a20"
+  },
+  "warmOverlay": false
+}

@@ -1,0 +1,28 @@
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+:root {
+  --accent-bg-color: #e5dfd3;
+  --accent-fg-color: #21252b;
+  --accent-color: #dfaa98;
+  --window-bg-color: #282c34;
+  --window-fg-color: #e5dfd3;
+  --view-bg-color: #21252b;
+  --view-fg-color: #e5dfd3;
+  --headerbar-bg-color: #2c313a;
+  --headerbar-fg-color: #e5dfd3;
+  --headerbar-backdrop-color: #282c34;
+  --headerbar-shade-color: rgba(0,0,0,0.10);
+  --headerbar-darker-shade-color: rgba(0,0,0,0.10);
+  --sidebar-bg-color: #252a32;
+  --sidebar-fg-color: #e5dfd3;
+  --sidebar-backdrop-color: #282c34;
+  --card-bg-color: #353b45;
+  --card-fg-color: #e5dfd3;
+  --dialog-bg-color: #282c34;
+  --dialog-fg-color: #e5dfd3;
+  --popover-bg-color: #282c34;
+  --popover-fg-color: #e5dfd3;
+}
+
+/* Optional title and button fonts; application body fonts are unchanged. */
+headerbar .title { font-family: "KingHwaOldSong-GB", "Noto Serif CJK SC"; }
+button label { font-family: "BoYa-Courier-Mix", "Noto Sans CJK SC"; }

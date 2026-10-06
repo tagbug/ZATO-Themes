@@ -1,0 +1,11 @@
+{
+  "uuid": "zato-on-the-line@tagbug.github.io",
+  "name": "ZATO \u00b7 On the Line",
+  "description": "Desktop clock with the ZATO title and a Morse code line.",
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.zato-on-the-line",
+  "version": 1,
+  "version-name": "1.0"
+}

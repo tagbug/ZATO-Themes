@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ZATO Dawn
+Comment=Warm charcoal surfaces and amber accents; native GNOME 50 layout
+Type=X-GNOME-Metatheme
+
+[X-GNOME-Metatheme]
+GtkTheme=ZATO-Dawn
+MetacityTheme=Adwaita
+IconTheme=Adwaita
+CursorTheme=Adwaita

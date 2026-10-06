@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ZATO Night
+Comment=Cool blue-grey surfaces and paper-white accents; native GNOME 50 layout
+Type=X-GNOME-Metatheme
+
+[X-GNOME-Metatheme]
+GtkTheme=ZATO-Night
+MetacityTheme=Adwaita
+IconTheme=Adwaita
+CursorTheme=Adwaita
